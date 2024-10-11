@@ -1,3 +1,5 @@
+import countdown from 'countdown';
+
 export default function (Alpine) {
 
 	Alpine.data('countdown', ( settings = {
@@ -20,11 +22,10 @@ export default function (Alpine) {
 				this.update( settings.date );
 			},
 
-			async update( timestamp ) {
+			update( timestamp ) {
 				const _this = this;
 
 				const date = new Date( timestamp );
-				const { default: countdown } = await import('countdown');
 
 				window.clearInterval( plugin );
 
