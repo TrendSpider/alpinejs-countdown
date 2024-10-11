@@ -1,0 +1,14 @@
+{
+  "name": "@trendspider/alpinejs-countdown",
+  "version": "0.0.1",
+  "description": "Alpine.js countdown plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Serhii Hulyi",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+	"countdown": "github:mckamey/countdownjs"
+  }
+}
